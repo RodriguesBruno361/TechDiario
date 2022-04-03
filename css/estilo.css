@@ -1,0 +1,215 @@
+/*Limpar formatações padrões*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/*Configurando o cabeçalho*/
+#area-cabecalho {
+    background: #4682B4;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo #area-menu{
+    padding: 10px;
+}
+
+#area-menu {
+    padding: 5px 25px;
+}
+/*Formatação do menu*/
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+    color: #4682B4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,#area-cabecalho a:visited {
+	color: #FFF;
+}
+
+#area-cabecalho a:hover {
+	text-decoration: none;
+}
+
+#area-cabecalho a:hover {
+    color: #1C1C1C;
+    background: #FFF;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	padding: 8px 12px;
+}
+
+/*Formatações geral*/
+h1{
+    color: #FFF;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+}
+/*Formatação da area principal*/
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens {
+    width: 600px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8;
+}
+
+#rodapé {
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    color: #FFF;
+    background: #4682B4; 
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*Formulário*/
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+/****************************/
+/**CARD DE NOTICIAS ESTILO**/
+/****************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tag-teal {
+  background-color: #47bcd4;
+}
+
+.tag-purple {
+  background-color: #5e76bf;
+}
+
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body h4 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  padding-top: 45px;
+}
+
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.user-info h5 {
+  margin: 0;
+}
+
+.user-info small {
+  color: #545d7a;
+}
